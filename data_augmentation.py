@@ -16,10 +16,10 @@ def parse_arguments():
     parser = ArgumentParser(add_help=False)
     args = parser.add_argument_group('Options')
     args.add_argument('-i', '--path_to_input_dataset', type=str, required=False, 
-                        default="/home/crystal/work/dataset/data_split/",
+                        default="/home/username/work/dataset/data_split/",
                         help="path of dataset for augmentation ")
     args.add_argument('-o', '--path_to_output_dataset', type=str, required=False, 
-                        default="/home/crystal/work/dataset/data_split_aug/",
+                        default="/home/username/work/dataset/data_split_aug/",
                         help="path to dataset for saving after augmentation ")
     return parser.parse_args()
 
