@@ -42,6 +42,10 @@ cd models/research
 python generate_tfrecord.py
 ```
 
+## Reference
+1. https://www.cnblogs.com/gezhuangzhuang/p/10613468.html
+2. https://github.com/mickkky/Dataset-Augment 
+3. https://www.cnblogs.com/White-xzx/p/9503203.html
 
 
 
