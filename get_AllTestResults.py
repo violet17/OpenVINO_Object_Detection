@@ -28,9 +28,9 @@ def parse_arguments():
     args.add_argument('-i', '--path_to_test_images', type=str, required=False, 
                         default="/home/username/work/dataset/data_split_aug/test/images/",
                         help="path of the images folder used for test ")
-    args.add_argument('-m', '--path_to_ckpt', type=str, required=False, 
+    args.add_argument('-m', '--path_to_pb', type=str, required=False, 
                         default="/home/username/work/train_log/frozen_inference_graph.pb",
-                        help="path of ckpt ")
+                        help="path of pb model ")
     args.add_argument('-l', '--path_to_labels', type=str, required=False, 
                         default="/home/username/work/train_log/label_map.pbtxt",
                         help="path of label map ")
